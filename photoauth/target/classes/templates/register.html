@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Register</title>
+</head>
+<body>
+<form action="/auth/register" method="post" enctype="multipart/form-data">
+    <input type="text" name="username" placeholder="Enter username" required />
+    <input type="file" name="photo" required />
+    <button type="submit">Register</button>
+</form>
+</body>
+</html>
